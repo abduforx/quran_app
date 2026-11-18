@@ -8,7 +8,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app https://github.com/abduforx/Quran_app
+bench get-app https://github.com/abduforx/quran_app
 bench install-app quran_app
 ```
 
