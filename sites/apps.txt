@@ -1,0 +1,5 @@
+frappe
+education
+hrms
+quran_app
+erpnext

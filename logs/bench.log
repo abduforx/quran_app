@@ -1,0 +1,134 @@
+2026-10-31 12:42:04,598 DEBUG cd GMS-bench && uv venv env --seed --python python3
+2026-10-31 12:42:06,942 LOG Getting frappe
+2026-10-31 12:42:06,942 DEBUG cd GMS-bench/apps && git clone https://github.com/frappe/frappe.git --branch v16.36.1 --depth 1 --origin upstream
+2026-10-31 12:42:17,555 LOG Installing frappe
+2026-10-31 12:42:17,557 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/frappe  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 12:42:26,547 DEBUG cd /home/abduforx/frappe-projects/GMS-bench/apps/frappe && yarn install --check-files
+2026-10-31 12:42:43,894 DEBUG cd GMS-bench && bench build
+2026-10-31 12:42:44,061 INFO /home/abduforx/.local/bin/bench build
+2026-10-31 12:43:05,291 LOG setting up backups
+2026-10-31 12:43:05,310 LOG backups were set up
+2026-10-31 12:43:05,310 INFO Bench GMS-bench initialized
+2026-10-31 12:43:05,681 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 12:43:31,114 INFO /home/abduforx/.local/bin/bench new-site gms
+2026-10-31 12:47:07,325 INFO /home/abduforx/.local/bin/bench start
+2026-10-31 12:47:07,742 INFO /home/abduforx/.local/bin/bench schedule
+2026-10-31 12:47:07,742 INFO /home/abduforx/.local/bin/bench worker
+2026-10-31 12:47:07,745 INFO /home/abduforx/.local/bin/bench serve --port 8003
+2026-10-31 12:47:07,747 INFO /home/abduforx/.local/bin/bench watch
+2026-10-31 12:47:07,749 INFO /home/abduforx/.local/bin/bench socketio
+2026-10-31 12:47:32,136 INFO /home/abduforx/.local/bin/bench use gms
+2026-10-31 12:47:33,774 INFO /home/abduforx/.local/bin/bench start
+2026-10-31 12:47:34,123 INFO /home/abduforx/.local/bin/bench serve --port 8003
+2026-10-31 12:47:34,127 INFO /home/abduforx/.local/bin/bench socketio
+2026-10-31 12:47:34,131 INFO /home/abduforx/.local/bin/bench watch
+2026-10-31 12:47:34,136 INFO /home/abduforx/.local/bin/bench worker
+2026-10-31 12:47:34,138 INFO /home/abduforx/.local/bin/bench schedule
+2026-10-31 12:48:14,869 INFO /home/abduforx/.local/bin/bench build
+2026-10-31 12:57:30,077 INFO /home/abduforx/.local/bin/bench get-app https://github.com/abduforx/Quran_app
+2026-10-31 12:57:30,096 LOG Getting Quran_app
+2026-10-31 12:57:30,096 DEBUG cd ./apps && git clone https://github.com/abduforx/Quran_app  --depth 1 --origin upstream
+2026-10-31 12:57:31,066 LOG Installing quran_app
+2026-10-31 12:57:31,071 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/quran_app  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 12:57:32,298 DEBUG bench build --app quran_app
+2026-10-31 12:57:32,476 INFO /home/abduforx/.local/bin/bench build --app quran_app
+2026-10-31 12:57:37,078 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 12:57:38,856 INFO /home/abduforx/.local/bin/bench install-app quran_app
+2026-10-31 12:58:08,145 INFO /home/abduforx/.local/bin/bench get-app erpnext --branch version-16
+2026-10-31 12:58:08,511 LOG Getting erpnext
+2026-10-31 12:58:08,512 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-16 --depth 1 --origin upstream
+2026-10-31 12:58:28,036 LOG Installing erpnext
+2026-10-31 12:58:28,036 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/erpnext  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 12:58:32,053 DEBUG cd /home/abduforx/frappe-projects/GMS-bench/apps/erpnext && yarn install --check-files
+2026-10-31 12:58:52,838 DEBUG bench build --app erpnext
+2026-10-31 12:58:53,023 INFO /home/abduforx/.local/bin/bench build --app erpnext
+2026-10-31 13:01:06,269 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:02:16,916 INFO /home/abduforx/.local/bin/bench get-app education --branch version-16
+2026-10-31 13:02:17,879 LOG Getting education
+2026-10-31 13:02:17,880 DEBUG cd ./apps && git clone https://github.com/frappe/education.git --branch version-16 --depth 1 --origin upstream
+2026-10-31 13:02:23,550 LOG Installing education
+2026-10-31 13:02:23,555 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/education  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 13:02:24,543 DEBUG cd /home/abduforx/frappe-projects/GMS-bench/apps/education && yarn install --check-files
+2026-10-31 13:02:40,225 DEBUG bench build --app education
+2026-10-31 13:02:40,396 INFO /home/abduforx/.local/bin/bench build --app education
+2026-10-31 13:02:54,373 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:03:05,615 INFO /home/abduforx/.local/bin/bench install-app erpnext education quran_app
+2026-10-31 13:04:44,394 INFO /home/abduforx/.local/bin/bench start
+2026-10-31 13:04:44,841 INFO /home/abduforx/.local/bin/bench worker
+2026-10-31 13:04:44,842 INFO /home/abduforx/.local/bin/bench socketio
+2026-10-31 13:04:44,843 INFO /home/abduforx/.local/bin/bench schedule
+2026-10-31 13:04:44,844 INFO /home/abduforx/.local/bin/bench watch
+2026-10-31 13:04:44,844 INFO /home/abduforx/.local/bin/bench serve --port 8003
+2026-10-31 13:04:58,908 INFO /home/abduforx/.local/bin/bench get-app hrms --branch version-16
+2026-10-31 13:04:59,424 LOG Getting hrms
+2026-10-31 13:04:59,425 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch version-16 --depth 1 --origin upstream
+2026-10-31 13:05:04,564 LOG Installing hrms
+2026-10-31 13:05:04,564 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/hrms  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 13:05:05,191 DEBUG cd /home/abduforx/frappe-projects/GMS-bench/apps/hrms && yarn install --check-files
+2026-10-31 13:05:54,378 DEBUG bench build --app hrms
+2026-10-31 13:05:54,541 INFO /home/abduforx/.local/bin/bench build --app hrms
+2026-10-31 13:06:23,231 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:07:12,157 INFO /home/abduforx/.local/bin/bench install-app hrms quran_app
+2026-10-31 13:08:24,720 INFO /home/abduforx/.local/bin/bench start
+2026-10-31 13:08:25,035 INFO /home/abduforx/.local/bin/bench watch
+2026-10-31 13:08:25,039 INFO /home/abduforx/.local/bin/bench serve --port 8003
+2026-10-31 13:08:25,043 INFO /home/abduforx/.local/bin/bench worker
+2026-10-31 13:08:25,045 INFO /home/abduforx/.local/bin/bench schedule
+2026-10-31 13:08:25,048 INFO /home/abduforx/.local/bin/bench socketio
+2026-10-31 13:14:03,552 INFO /home/abduforx/.local/bin/bench get-app erpnext --branch v16.36.1
+2026-10-31 13:14:34,228 INFO App moved from apps/erpnext to archived/apps/erpnext-2026-10-31
+2026-10-31 13:14:34,236 LOG Getting erpnext
+2026-10-31 13:14:34,236 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch v16.36.1 --depth 1 --origin upstream
+2026-10-31 13:14:47,155 LOG Installing erpnext
+2026-10-31 13:14:47,156 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/erpnext  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 13:14:50,849 DEBUG cd /home/abduforx/frappe-projects/GMS-bench/apps/erpnext && yarn install --check-files
+2026-10-31 13:15:05,973 DEBUG bench build --app erpnext
+2026-10-31 13:15:06,140 INFO /home/abduforx/.local/bin/bench build --app erpnext
+2026-10-31 13:15:16,220 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:15:26,400 INFO /home/abduforx/.local/bin/bench get-app hrms --branch v16.36.1
+2026-10-31 13:15:27,819 INFO App moved from apps/hrms to archived/apps/hrms-2026-10-31
+2026-10-31 13:15:27,826 LOG Getting hrms
+2026-10-31 13:15:27,826 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch v16.36.1 --depth 1 --origin upstream
+2026-10-31 13:15:28,999 WARNING cd ./apps && git clone https://github.com/frappe/hrms.git --branch v16.36.1 --depth 1 --origin upstream executed with exit code 128
+2026-10-31 13:15:29,000 WARNING /home/abduforx/.local/bin/bench get-app hrms --branch v16.36.1 executed with exit code 1
+2026-10-31 13:15:29,403 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:16:27,108 INFO /home/abduforx/.local/bin/bench get-app hrms --branch v16.36.0
+2026-10-31 13:16:27,574 LOG Getting hrms
+2026-10-31 13:16:27,574 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch v16.36.0 --depth 1 --origin upstream
+2026-10-31 13:16:28,566 WARNING cd ./apps && git clone https://github.com/frappe/hrms.git --branch v16.36.0 --depth 1 --origin upstream executed with exit code 128
+2026-10-31 13:16:28,567 WARNING /home/abduforx/.local/bin/bench get-app hrms --branch v16.36.0 executed with exit code 1
+2026-10-31 13:16:28,971 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:18:15,009 INFO /home/abduforx/.local/bin/bench get-app hrms --branch v16.11.0
+2026-10-31 13:18:15,896 LOG Getting hrms
+2026-10-31 13:18:15,896 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch v16.11.0 --depth 1 --origin upstream
+2026-10-31 13:18:21,825 LOG Installing hrms
+2026-10-31 13:18:21,825 DEBUG cd /home/abduforx/frappe-projects/GMS-bench && uv pip install --quiet -e /home/abduforx/frappe-projects/GMS-bench/apps/hrms  --python /home/abduforx/frappe-projects/GMS-bench/env/bin/python
+2026-10-31 13:18:22,368 DEBUG cd /home/abduforx/frappe-projects/GMS-bench/apps/hrms && yarn install --check-files
+2026-10-31 13:19:18,565 DEBUG bench build --app hrms
+2026-10-31 13:19:18,730 INFO /home/abduforx/.local/bin/bench build --app hrms
+2026-10-31 13:21:45,988 INFO A newer version of bench is available: 5.31.0 → 5.31.1
+2026-10-31 13:22:00,162 INFO /home/abduforx/.local/bin/bench install-app erpnext hrms quran_app
+2026-10-31 13:22:22,527 INFO /home/abduforx/.local/bin/bench uninstall-app erpnext hrms education quran_app
+2026-10-31 13:22:36,122 INFO /home/abduforx/.local/bin/bench uninstall-app erpnext
+2026-10-31 13:22:47,814 INFO /home/abduforx/.local/bin/bench uninstall-app quran_app
+2026-10-31 13:23:09,596 INFO /home/abduforx/.local/bin/bench start
+2026-10-31 13:23:10,033 INFO /home/abduforx/.local/bin/bench serve --port 8003
+2026-10-31 13:23:10,050 INFO /home/abduforx/.local/bin/bench socketio
+2026-10-31 13:23:10,056 INFO /home/abduforx/.local/bin/bench worker
+2026-10-31 13:23:10,058 INFO /home/abduforx/.local/bin/bench schedule
+2026-10-31 13:23:10,059 INFO /home/abduforx/.local/bin/bench watch
+2026-10-31 13:23:13,239 INFO /home/abduforx/.local/bin/bench uninstall-app quran_app
+2026-10-31 13:23:46,930 INFO /home/abduforx/.local/bin/bench uninstall-app education
+2026-10-31 13:24:10,204 INFO /home/abduforx/.local/bin/bench uninstall-app hrms
+2026-10-31 13:24:41,667 INFO /home/abduforx/.local/bin/bench uninstall-app erpnext
+2026-10-31 13:25:46,530 INFO /home/abduforx/.local/bin/bench install-app erpnext hrms education quran_app
+2026-11-18 09:18:27,350 INFO /home/abduforx/.local/bin/bench start
+2026-11-18 09:18:27,674 INFO /home/abduforx/.local/bin/bench socketio
+2026-11-18 09:18:27,674 INFO /home/abduforx/.local/bin/bench schedule
+2026-11-18 09:18:27,678 INFO /home/abduforx/.local/bin/bench watch
+2026-11-18 09:18:27,679 INFO /home/abduforx/.local/bin/bench serve --port 8003
+2026-11-18 09:18:27,682 INFO /home/abduforx/.local/bin/bench worker
+2026-11-18 09:43:24,053 INFO /home/abduforx/.local/bin/bench --site GMS export-fixtures --app quran_app
+2026-11-18 09:43:32,772 INFO /home/abduforx/.local/bin/bench --site gms export-fixtures --app quran_app
+2026-11-18 09:43:49,636 INFO /home/abduforx/.local/bin/bench --site gms export-fixtures --app quran_app
+2026-11-18 09:46:20,912 INFO /home/abduforx/.local/bin/bench --site gms export-fixtures --app quran_app

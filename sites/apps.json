@@ -1,0 +1,51 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.36.1"
+    },
+    "quran_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "648fc1495629d707ef7dccb1aa171543ed219aec",
+            "branch": "version-16"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "9cd11b19575bfc34f092a24f6c8b368c4dd69481",
+            "branch": "version-16"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "16.53.0"
+    },
+    "education": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "322c01dc0937d3f848b7226d4ea929afd1b84c68",
+            "branch": "version-16"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "16.0.1"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "b12d935b99c1434618845fdd9f3a3d340b5a3aed",
+            "branch": "version-16"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "16.53.0"
+    }
+}
