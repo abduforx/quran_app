@@ -243,3 +243,15 @@ ModuleNotFoundError: No module named 'hrms.hooks'
 2026-11-18 09:32:00,771 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for gms
 2026-11-18 09:36:00,878 ERROR scheduler Skipped queueing frappe.automation_engine.drainer.drain_due because it was found in queue for gms
 2026-11-18 09:36:00,886 ERROR scheduler Skipped queueing frappe.automation_engine.scheduler.process_cron because it was found in queue for gms
+2026-11-18 09:48:00,698 ERROR scheduler Skipped queueing frappe.automation_engine.drainer.drain_due because it was found in queue for gms
+2026-11-18 09:48:00,699 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for gms
+2026-11-18 09:48:00,700 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for gms
+2026-11-18 09:48:00,701 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for gms
+2026-11-18 09:48:00,703 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for gms
+2026-11-18 09:48:00,707 ERROR scheduler Skipped queueing erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.run_parallel_reposting because it was found in queue for gms
+2026-11-18 09:48:00,709 ERROR scheduler Skipped queueing frappe.automation_engine.scheduler.process_cron because it was found in queue for gms
+2026-11-18 09:48:00,711 ERROR scheduler Skipped queueing frappe.utils.telemetry.pulse.client.send_queued_events because it was found in queue for gms
+2026-11-18 09:48:00,721 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for gms
+2026-11-18 09:48:00,722 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for gms
+2026-11-18 09:52:00,336 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for gms
+2026-11-18 09:52:00,340 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for gms
